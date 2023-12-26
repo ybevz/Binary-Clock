@@ -10,3 +10,12 @@ Although it is called a "clock", the more appropriate name would be a "clock-lik
 
 ## Known issues
 - The current circuit design works perfectly except for one thing: once _pin 19_ is reached, it is never reset because _DFF11_ has no _nRESET_ and no alternative has been found yet. This makes the clock count from 0 to 12 on the first iteration and from 5 to 12 after it.
+
+## Demonstration
+- Seconds
+https://github.com/EugeneBewz/Binary-Clock/assets/116636070/3a77fa00-95c4-4df0-abb8-0d558848f324
+
+- Minutes / Hours
+
+https://github.com/EugeneBewz/Binary-Clock/assets/116636070/52228b88-e318-4696-9cb7-bfda784927fa
+
